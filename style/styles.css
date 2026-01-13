@@ -130,6 +130,31 @@ main > section{
   font-weight: 500;
 }
 
+/* enjoy related style */
+
+.architect{
+  gap: 50px;
+}
+#architect-section-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+.architect-card{
+  /* max-width: 400px; */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 10px;
+}
+.architect-card .architect-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.architect-img{
+  max-width: 500px;
+  max-height: 1000px;
+}
+
 /* some facts related style */
 
 .facts-container{
