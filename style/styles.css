@@ -130,10 +130,10 @@ main > section{
   font-weight: 500;
 }
 
-/* enjoy related style */
+/* architect related style */
 
 .architect{
-  gap: 50px;
+  gap: 80px;
 }
 #architect-section-title{
   border-left: 5px solid #FF900E;
@@ -141,20 +141,36 @@ main > section{
 }
 .architect-card{
   /* max-width: 400px; */
-  padding: 20px;
+  padding: 15px;
   border-radius: 8px;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
   margin-bottom: 10px;
+  margin-top: 0px;
 }
 .architect-card .architect-title{
   font-weight: 600;
   font-size: 1.25rem;
 }
+.section-description{
+  margin-bottom: 20px;
+}
+.architect-title{
+  margin-bottom: 10px;
+}
 .architect-img{
   max-width: 500px;
-  max-height: 1000px;
 }
-
+#experience-badge{
+  padding: 35px 32px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -60px;
+  margin-top: -100px;
+}
+#experience-year{
+  font-weight: 700;
+  font-size: 3.5rem;
+}
 /* some facts related style */
 
 .facts-container{
@@ -202,6 +218,21 @@ main > section{
 .sponsor-companies img{
   filter: grayscale(100%);
   max-width: 100px;
+}
+
+/* footer related style */
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-copyright{
+  background-color: #FFF4E7;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  font-size: 1.25rem;
+  padding: 35px 150px;
+  border-radius: 8px;
 }
 
 /* responsive media query */
@@ -290,6 +321,27 @@ main > section{
 .sponsor-info{
   margin: 20px;
 }
+/* architect related style */
+.architect{
+  flex-direction: column;
+}
+.architect-img{
+  max-width: 390px;
+}
+#experience-badge{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+/* footer */
+footer{
+  text-align: center;
+}
+.footer-copyright{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 1.1rem;
+  padding: 35px 30px;
+}
 }
 
 /* medium size device (tablet) */
@@ -316,5 +368,20 @@ main > section{
   height: 300px;
   width: 300px;
   margin: 0 auto;
+}
+/* architect */
+.architect{
+  flex-direction: column;
+}
+.architect-img{
+  max-width: 630px;
+}
+
+/* footer */
+.footer-copyright{
+  margin-top: 100px;
+  margin-bottom: 150px;
+  font-size: 1.25rem;
+  padding: 35px 70px;
 }
 }
