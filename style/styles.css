@@ -242,10 +242,14 @@ footer{
     flex-direction: column;
   }
   .navbar{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
   .banner-content{
     max-width: 100%;
+    margin-bottom: 0px;
+  }
+  .banner-title{
+    margin-bottom: 20px;
   }
   .banner-img{
     max-width: 100%;
@@ -270,6 +274,7 @@ footer{
   }
   .teams{
     flex-direction: column-reverse;
+    margin-top: 10;
   }
   .team-img-container{
     display: grid;
@@ -289,7 +294,7 @@ footer{
   .btn-primary{
     margin-bottom: 50px;
   }
-  /* the fact section */
+  /* some fact section */
   .facts-container{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -299,7 +304,7 @@ footer{
 }
 .some-facts{
   margin: 40px;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 .fact-card{
   height: 300px;
@@ -324,6 +329,7 @@ footer{
 /* architect related style */
 .architect{
   flex-direction: column;
+  gap: 40px;
 }
 .architect-img{
   max-width: 390px;
@@ -331,6 +337,9 @@ footer{
 #experience-badge{
   margin-top: 20px;
   margin-left: 20px;
+}
+.section-description{
+  margin-left: 10px;
 }
 /* footer */
 footer{
